@@ -148,7 +148,9 @@ nav{
 .imagen{
      display: block;
      margin-left: auto;
-     margin-right: auto;  
+     margin-right: auto; 
+     width: 2800px;
+     height: 482px;
 }
 /*----- Conetedor de redes -------*/
 .contenedor_icono{
