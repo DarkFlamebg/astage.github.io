@@ -145,13 +145,16 @@ nav{
 .Marcado{
      color:#FF0000;
 }
-.imagen{
-     display: block;
-     margin-left: auto;
-     margin-right: auto; 
-     width: 680px;
+.contenedor_imgp{
+     margin-left: 5%;
+     margin-right: 5%;
+     width: 1080px;
      height: 482px;
 }
+/*.imagen{
+     width: 80px;
+     height: 482px;
+}*/
 /*----- Conetedor de redes -------*/
 .contenedor_icono{
      margin-top: 7px;
