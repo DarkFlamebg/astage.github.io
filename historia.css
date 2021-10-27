@@ -1,0 +1,277 @@
+*{ 
+     margin: 0; 
+     padding: 0; 
+     box-sizing:border-box;
+}
+body{
+	background:#3F3F3F3F ;	
+     font-family: 'Mukta', sans-serif;
+     margin:0;
+     font-weight:45px;
+}
+a{
+     text-decoration: none;
+}  
+.Menu{
+	background:#de0f17;
+     height: 10px;
+     z-index: 1;
+}
+nav{
+     background-color:#b22;
+     padding:15px;
+     width:100%;
+     height: 60px;
+     position: fixed;
+     border-bottom:#e8492d 3px solid;
+}
+
+/*Contenedor de la lista del menu(falta terminar)*/
+.container_nav{
+     padding: 0;    
+     text-align:center;
+}
+/*Lista contenedor*/
+.nav_ul{
+     display:inline-block;
+     padding: 8px;
+     margin:10px;
+}
+/*Lista*/
+.lista{
+     display: inline-block;
+     text-align: center;
+     padding:none;
+     font-size:22px;
+     color:#FBF7F7;    
+     margin-right:55px;
+}
+.lista_deco{
+     color:#FBF7F7;
+     transition:color 0.30s ease-in-out, transform 0.25s ease-in-out;
+     text-decoration:none;
+}
+.lista_deco:hover {
+     color:#E9967A/*hsl(203, 80%, 62%)*/;
+}
+/**/
+main{
+     margin-top: 5em;
+     margin-right:15px;
+     margin-left: 15px;
+     position:;
+}
+/*=======================================*/
+.contenedor_historia{
+     float:left;
+     width:55%;
+     height:100%;
+     display:inline-block;
+}
+.Title{
+     font-size: 40px;
+     font-family: Mukta;
+     color: #DC143C;
+     text-align: center;
+     transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
+     text-shadow: #b22 0px 0 10px;
+}
+.Title:hover{
+     color:#e22;
+}
+.subtitlo1{
+     font-size: 28px;
+     text-align: center;
+     color: #e22;
+}
+.Parrafo1{
+     font-size: 22px;
+     text-align: center;
+     margin: 0 45px 45px 50px;
+     line-height: 30px;
+     /*margin-right: 45px;
+     margin-left: 45px;
+     margin-bottom:50px;*/
+}
+.subtitlo2{
+     font-size: 26px;
+     text-align: center;
+     color: #e22;
+}
+.Parrafo2{
+     text-align: justify;
+     font-size: 18px;
+     line-height: 22px;
+     margin-left: 2px;
+}
+.Marcado{
+     color:#FF0000;
+}
+.LaTierra{
+     Color:#2CAD12;
+}
+.sangre{
+     color:#191919;
+}
+.sacra{
+     color:#2A7C19;
+}
+.societa{
+     color:#470E64;
+}
+.name{
+     color:#CC0000;
+}
+/**/
+.lista2{
+     font-size: 20px;
+     line-height: 25px;
+}
+.Subtitulo_rango{
+     margin: 15px 0 15px 30px;
+     color: #DB0303;
+     font-size: 22px;
+}
+.Jerarquia{
+     margin:5px 0 0 40px;
+     font-size:19.5px;
+     text-align:left;
+     color:#000000;
+     transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
+}
+.Jerarquia:hover{
+     transform: scale(1.025);
+     color:#FF0000;
+}    
+.Jerarquia:active{
+     transform: scale(.9);
+}
+/**/
+.container_multimedia{
+     float:right;
+     width:45%;
+     height:auto;
+     display:inline-block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: -80px;
+}
+.Discord{
+     height:450px;
+     width: 520px;
+     display:block;
+     margin-right: auto;
+     margin-left: auto;
+     border-radius:20px;
+     
+}
+.video{
+     display:block;
+     margin-left: auto;
+     margin-right: auto;  
+
+}
+.Parrafo4{
+     text-align: center;
+     font-size: 21px;
+}
+.Subtitulo3{
+     font-size:25px;
+     color: red;
+     margin-top: 100px;
+     text-align: center;
+}
+/**/
+.aclaraciones{
+     margin: 25px 50px 25px 30px;
+}
+.paclaraciones{
+     font-size: 22px;
+}
+.aclaracion{
+     font-size: 18px;
+}
+/**/
+.Youtube_ico{
+     color:red;
+}
+.Discord_ico{
+     color: #7289DA;
+}
+.twitter_ico{
+     color:#7289DA;
+}
+/**/
+footer{
+     display: block;
+     background:#F08080;
+     padding: 10px;
+     font-family: cursive;
+     text-align:center;
+     position:relative;
+     font-size:18px;
+     clear:both;
+     margin-top:35px;
+     border-radius: 10px;
+     border:3px solid #F08080;
+     line-height:24px;
+}
+.derechos-reservados{
+     color:red;
+     font-size: 20px;
+     font-family: cursive;
+     border-color:#000000;
+     text-align: center;
+}
+.reservado{
+     color:black;
+}
+.correo{
+     color:red;
+}
+/*
+.correo:hover{
+     transform: scale(1.05);
+     font-size: 19px;
+}*/
+.alex{
+     color:red;
+     font-size:22px;
+}
+/*-----Boton de subir-------*/
+.back-to-top{
+     width:40px;
+     height:40px;
+     border-radius:75px;
+     background:0;
+     box-shadow: rgb(0 25 0 / 30%) 0 12px 15px;
+     border:#BB0000 2px solid;
+     padding:0 !important;
+     z-index: 100;
+     display:none;
+     position:fixed;
+     text-shadow:none;
+     font-size:26px;
+     margin:0;
+     text-align:center;
+     bottom:30px;
+     right:30px;
+     color:#D41616;
+     transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
+}
+.back-to-top:hover{
+     color:blue;
+}
+.fa-angle-up{
+     animation-duration:2.5s;
+     animation-fill-mode:both;
+     animation-iteration-count:infinite;     
+}
+@keyframes fa-angle-up{
+     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+          40% {transform: translateY(-30px);}
+          60% {transform: translateY(-15px);}
+}
+.fa-angle-up{
+     animation-name:fa-angle-up;
+}

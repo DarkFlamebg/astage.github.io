@@ -1,0 +1,265 @@
+*{ 
+     margin: 0; 
+     padding: 0; 
+     box-sizing:border-box;
+}
+body{
+	background:#3F3F3F3F ;	
+     font-family: 'Mukta', sans-serif;
+     margin:0;
+     font-weight:45px;
+}
+a{
+     text-decoration: none;
+}  
+.Menu{
+     height: 10px;
+     z-index: 1;
+}
+nav{
+     background-color:#b22;
+     
+     padding:15px;
+     width:100%;
+     height: 60px;
+     position: fixed;
+     border-bottom:#e8492d 3px solid;
+}
+.container_nav{
+     padding: 0;   
+     padding-top: 20px; 
+     text-align:center;
+}
+/*Lista contenedor*/
+.nav_ul{
+     display:inline;
+     padding: 0 20px 0 20px;
+     margin:10px;
+}
+/*Lista*/
+.lista{
+     display: inline-block;
+     text-align: center;
+     padding:none;
+     font-size:22px;
+     color:#FBF7F7;    
+     margin-right:55px;
+}
+.lista_deco{
+     color:#FBF7F7;
+     transition:color 0.30s ease-in-out, transform 0.25s ease-in-out;
+     text-decoration:none;
+
+}
+.lista_deco:hover {
+     color:#E9967A/*hsl(203, 80%, 62%)*/;
+}
+/**/
+main{
+     margin-top: 5em;
+     margin-right:15px;
+     margin-left: 15px;
+}
+/**/
+.Title{
+     font-size: 40px;
+     font-family:arial;
+     text-align: center;
+     color: #DC143C;
+     transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
+     text-shadow: #e22 1px 5px 10px, #CCC -3px 0 10px, #CCC 1px 5px 10px;
+}
+.Title:hover{
+     color: #e22;
+}
+.Parrafo1{
+     font-size: 22px;
+     text-align: center;
+     margin-right: 45px;
+     margin-left: 45px;
+}
+.Subtitulo2{
+     margin-top: 15px;
+     margin-bottom: 25px;
+     font-size:30px;
+     color:#FF0000;
+     text-align:center;
+     transition: 0.30s ease-in-out, transform 0.20s ease-in-out;
+}
+.Subtitulo2:hover{
+     transform: scale(1.02);
+}
+.Subtitulo2:active{
+     transform: scale(.9);
+}
+.Parrafo_2{
+     font-size: 22px;
+     text-align: center;
+     margin-right: 15px;
+     margin-left: 15px;
+     margin-bottom: 50px;
+}
+
+/*---------Ajuste de imagenes----------*/
+.Imagenes{
+     display:inline-block!important;
+}
+.Imagen1{
+     display:block;
+     margin-left:auto;
+     margin-right: auto;
+     margin-bottom:15px;
+     height:auto;
+     width:auto;
+}
+.Imagen2{
+     float:right;
+     display:inline-block;
+     margin-left: auto;
+     margin-right:10px;
+     width: 640px;
+     padding-right:10px;
+     height: 380px;
+     margin-bottom:35px;
+}
+.Imagen3{
+     float:left;
+     display:inline-block;
+     margin-left:10px;
+     margin-right:auto;
+     width: 650px;
+     padding-right:10px;
+     height: 380px;
+     margin-bottom:35px;
+}
+/*----------Img de los coches-------*/
+.Imagenes_2{
+     display:inline-block!important;
+}
+.Imagen4{
+     float:left;
+     display:block;
+     margin-right:auto;
+     margin-left:10px;
+     width:630px;
+     height:380px;
+     margin-bottom:15px;
+}
+.Imagen5{
+     float:right;
+     display:block;
+     margin-right:10px;
+     margin-left:auto;
+     width:650px;
+     height:380px;
+     margin-bottom:15px;
+}
+.Imagen6{
+     float:left;
+     display:block;
+     margin-right:auto;
+     margin-left:10px;
+     width:630px;
+     height:380px;
+     margin-bottom:15px;
+}
+.Imagen7{
+     float:right;
+     display:block;
+     margin-right:10px;
+     margin-left:auto;
+     width:650px;
+     height:380px;
+     margin-bottom:15px;
+}
+.Imagen8{
+     display: block;
+     margin-bottom:10px;
+     margin-right:auto;
+     margin-left:auto;
+     height: auto;
+     width: auto;
+}
+/**/
+.Youtube_ico{
+     color:red;
+}
+.Discord_ico{
+     color: #7289DA;
+}
+.twitter_ico{
+     color:#7289DA;
+}
+/**/
+footer{
+     display: block;
+     background:#F08080;
+     padding: 10px;
+     font-family: cursive;
+     text-align:center;
+     position:relative;
+     font-size:18px;
+     clear:both;
+     margin-top: 5px;
+     border-radius: 10px;
+     border:3px solid #F08080;
+     line-height:24px;
+}
+.derechos-reservados{
+     color:red;
+     font-size: 20px;
+     font-family: cursive;
+     border-color:#000000;
+     text-align: center;
+}
+.reservado{
+     color:black;
+}
+.correo{
+     color:red;
+}
+.alex{
+     color:red;
+     font-family:;
+     font-size:22px;
+}
+/*-----Boton de subir-------*/
+.back-to-top{
+     width:40px;
+     height:40px;
+     border-radius:75px;
+     background:0;
+     box-shadow: rgb(0 25 0 / 30%) 0 12px 15px;
+     border:#BB0000 2px solid;
+     padding:0 !important;
+     z-index: 100;
+     display:none;
+     position:fixed;
+     text-shadow:none;
+     font-size:26px;
+     margin:0;
+     text-align:center;
+     bottom:40px;
+     right:30px;
+     color:#D41616;
+     transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
+}
+.back-to-top:hover{
+     color:blue;
+     border: 2px solid blue;
+}
+
+.fa-angle-up{
+     animation-duration:2.5s;
+     animation-fill-mode:both;
+     animation-iteration-count:infinite;     
+}
+
+@keyframes fa-angle-up{
+     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+          40% {transform: translateY(-30px);}
+          60% {transform: translateY(-15px);}
+}
+.fa-angle-up{
+     animation-name:fa-angle-up;
+}

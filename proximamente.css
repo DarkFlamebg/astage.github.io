@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{	
+	font-family:'Mukta', cursive;
+	margin:0;
+}
+/*------- Contenido -------*/
+h1{
+	margin:0px;
+
+}
+.msj-error{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content:center;
+	height:100vh;
+	width:100%;
+}
+.container-error{
+	text-align:center;
+	color:white;
+
+	{
+	}
+	h1{
+		font-size: 60px;
+		text-align: center;
+	}
+	h2{
+		font-size:18px;
+
+	}
+}
+.animate{
+	animation-duration:2.05s;
+	animation-fill-mode:both;
+	animation-iteration-count:infinite;	
+}
+@keyframes bounce{
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+		40% {transform: translateY(-30px);}
+		60% {transform: translateY(-15px);}
+}
+.bounce{
+	animation-name: bounce;
+}
+.Subtitulo{
+	color:#000000;
+	font-size:25px;
+	line-height: 45px;
+}
+h1{
+	font-size:40px;
+}
+/**/
+body {  
+  background: #0A212E;
+  margin: 0px;
+  overflow: hidden;
+  animation: color-loop 18s infinite;
+}
+
+.wave(){
+  position: absolute;
+  background: white;
+  margin-left: -12px;
+  margin-top: -12px;
+  width: 50px;
+  height: 50px;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+}
+
+.waves:before {
+  .wave();
+  animation: wave-animate 3s infinite ease-out;
+}
+
+.waves:after {
+  .wave();
+  opacity:0;
+  animation: wave-animate 3s 1.5s infinite ease-out;
+}
+
+@keyframes wave-animate {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+    transform-origin: center;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+    transform-origin: center;
+  }
+}
+
+@keyframes color-loop {
+  0% {
+    background: #2CAB5B;
+  }
+  25% {
+    background: #FABC03;
+  }
+  50% {
+    background: #ED4B40;
+  }
+  75% {
+    background: #4286F3;
+  }
+  100% {
+    background: #2CAB5B;
+  }
+}
