@@ -104,17 +104,17 @@ nav{
      min-height:100vh; 
  	/*margin-top: 4%;*/
      margin-top: 50px;
- 	height: 100vh;
- 	min-height: 100vh;
  }
- .Principal{
+ .Principal_noresponsive{
  	background: url(https://imgur.com/v9tIJLU.png) no-repeat;
-	 background-position: center;
-  background-size: cover;
+     background-position: center;
+     background-size: cover;
+ }
+ .Principal_responsive{
+     display: none;
  }
 /* == Quienes somos == */
 .contenedor_inicio{
-     
      height:100vh;
      min-height:100vh; 
      display: flex;
@@ -122,7 +122,7 @@ nav{
      align-items: center;
 }
 .container_quienes_somos{
-     /*background: white;*/
+     /*background: salmon;*/
 }
 .Subtitulos{
      font-size:36px;
@@ -188,13 +188,14 @@ nav{
 .history{
      height:100vh;
      min-height:100vh;
-     margin-top: 15px;
+     width: 100%;
+     margin-top: 55px;
      display: flex;
      justify-content: center;
      align-items: center;
 }
 .contenedor_historia{
-     /*background: white;*/
+     /*background: salmon;*/
 }
 .Subtitulo2{
      font-size:36px;
@@ -431,6 +432,7 @@ footer{
 	animation-name:fa-angle-up;
 }
  /**/
+ /*
  @media only screen and (max-width: 450px){
  	.nav_ul_responsive{
  		display: inline-block;
@@ -439,4 +441,160 @@ footer{
  	.nav_ul{
  		display: none;
  	}
+ }*/
+ @media only screen and (max-width: 768px){
+     header nav,
+     header nav li,
+     footer{
+          float:none;
+          text-align:center;
+          width:100%;
+     }
+     nav{
+          width:100%;
+     }
+     .nav_ul{
+          display:none;
+     }
+     .nav_ul_responsive{
+          float:left;
+          display:inline-block;
+          text-align:left;
+          font-size: 26px;
+          margin-left: 25px;
+     }
+     .nav_li-container{
+          display: none;
+     }
+     .nav_li-container:hover{
+          display: flex;
+          width:25px;
+     }
+     /*======== Principal ========*/
+     .Portada{
+          height:5%;
+          min-height:5%; 
+          /*margin-top: 4%;*/
+          margin-top: 50px;
+     }
+     .Principal_noresponsive{
+          display: none;
+     }
+     .Principal_responsive{
+          width:100%;
+          height:auto;
+          display:block;
+     }
+     .Title{
+          text-align: center;
+          font-size: 26px;
+          margin: 4% 10% 5% 37%;
+     }
+     /*======== INICIO ========*/
+     .contenedor_inicio{
+          width:100%;
+          height:auto;
+          /*margin-top: -22%;*/
+     }
+     .Parrafo1{
+          margin-left: 5%;
+          margin-right: 5%;
+     }
+     .imagen{
+          width: auto;
+          height: auto;
+     }
+     /*==========HISTORIA==========*/
+     .history{
+          margin-top: -25px;
+          width:100%;
+          height:auto;
+     }
+     .contenedor_imagen{
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+     }
+     .imagen_historia{
+          width: auto;
+          height:auto;
+          margin-top: 3%;
+     }
+     .Subtitulo2{
+          margin-left: 5%;
+          margin-right: 5%;
+     }
+     .Parrafo2{
+          margin-left: 5%;
+          margin-right: 5%;
+     }
+     /*==========BASE=========*/
+     .base{
+          margin-top: -15px;
+          width:100%;
+          height:auto;
+     }
+     .Subtitulo4{
+          margin-top: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+     }
+     .Parrafo3{
+          margin-left: 5%;
+          margin-right: 5%;
+     }
+     .contenedor_imgb{
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+     }
+     .Imagen1{
+          width: auto;
+          height:auto;
+          margin-top: 3%;
+     }
+     /*======REQUISITOS======*/
+     .contenedor_requisitos{
+          margin-top: -15px;
+          width:100%;
+          height:auto;
+     }
+     .Subtitulo3{
+          font-size: 50px;
+          margin-top: 5%;
+          margin-left: 5%;
+          margin-right: 5%;
+     }
+     .Parrafo5{
+          font-size: 22px;
+          margin-left: 2%;
+          margin-right: 2%;
+     }
+     .lirequisitos{
+          font-size: 22px;
+          margin-left: 7%;
+          margin-right: 5%;
+     }
+     .contenedor_imagenreq{
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+     }
+     .imagen2{
+          width: auto;
+          height:auto;
+          margin-top: 5%;
+          margin-bottom: 3%;
+     }
+     /*======DISCORD Y VIDEOS YT======*/
+     .container_multimedia{
+          display: none;
+     }
+ }
+ @media only screen and (max-width: 460px){
+     .Title{
+          text-align: center;
+          font-size: 26px;
+          margin: 4% 0 7% 25%;
+     }
  }
