@@ -113,7 +113,7 @@ nav{
  }
 /* == Quienes somos == */
 .contenedor_inicio{
-     margin-top: -95px;
+     /*margin-top: -95px;*/
      height:100vh;
      min-height:100vh; 
      display: flex;
