@@ -108,6 +108,8 @@ nav{
  }
  .Principal{
  	background: url(https://imgur.com/v9tIJLU.png) no-repeat;
+	 background-position: center;
+  background-size: cover;
  }
 /* == Quienes somos == */
 .contenedor_inicio{
