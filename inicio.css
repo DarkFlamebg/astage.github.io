@@ -594,7 +594,7 @@ footer{
      }
      /*======DISCORD Y VIDEOS YT======*/
      .container_multimedia{
-          float: none;
+          display: none;
           margin-top: -15px;
           width:100%;
           height:auto;
