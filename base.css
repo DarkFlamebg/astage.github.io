@@ -13,27 +13,28 @@ a{
      text-decoration: none;
 }  
 .Menu{
+	background:#de0f17;
      height: 10px;
      z-index: 1;
 }
 nav{
      background-color:#b22;
-     
      padding:15px;
      width:100%;
      height: 60px;
      position: fixed;
      border-bottom:#e8492d 3px solid;
 }
+
+/*Contenedor de la lista del menu(falta terminar)*/
 .container_nav{
-     padding: 0;   
-     padding-top: 20px; 
+     padding: 0;    
      text-align:center;
 }
 /*Lista contenedor*/
 .nav_ul{
-     display:inline;
-     padding: 0 20px 0 20px;
+     display:inline-block;
+     padding: 8px;
      margin:10px;
 }
 /*Lista*/
@@ -49,7 +50,6 @@ nav{
      color:#FBF7F7;
      transition:color 0.30s ease-in-out, transform 0.25s ease-in-out;
      text-decoration:none;
-
 }
 .lista_deco:hover {
      color:#E9967A/*hsl(203, 80%, 62%)*/;
@@ -59,126 +59,137 @@ main{
      margin-top: 5em;
      margin-right:15px;
      margin-left: 15px;
+     
 }
-/**/
+/*=======================================*/
+.contenedor_historia{
+     float:left;
+     width:55%;
+     height:100%;
+     display:inline-block;
+}
 .Title{
      font-size: 40px;
-     font-family:arial;
-     text-align: center;
+     font-family: Mukta;
      color: #DC143C;
+     text-align: center;
      transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
-     text-shadow: #e22 1px 5px 10px, #CCC -3px 0 10px, #CCC 1px 5px 10px;
+     text-shadow: #b22 0px 0 10px;
 }
 .Title:hover{
+     color:#e22;
+}
+.subtitlo1{
+     font-size: 28px;
+     text-align: center;
      color: #e22;
 }
 .Parrafo1{
      font-size: 22px;
      text-align: center;
-     margin-right: 45px;
+     margin: 0 45px 45px 50px;
+     line-height: 30px;
+     /*margin-right: 45px;
      margin-left: 45px;
+     margin-bottom:50px;*/
 }
-.Subtitulo2{
-     margin-top: 15px;
-     margin-bottom: 25px;
-     font-size:30px;
+.subtitlo2{
+     font-size: 26px;
+     text-align: center;
+     color: #e22;
+}
+.Parrafo2{
+     text-align: justify;
+     font-size: 18px;
+     line-height: 22px;
+     margin-left: 2px;
+}
+.Marcado{
      color:#FF0000;
-     text-align:center;
-     transition: 0.30s ease-in-out, transform 0.20s ease-in-out;
 }
-.Subtitulo2:hover{
-     transform: scale(1.02);
+.LaTierra{
+     Color:#2CAD12;
 }
-.Subtitulo2:active{
+.sangre{
+     color:#191919;
+}
+.sacra{
+     color:#2A7C19;
+}
+.societa{
+     color:#470E64;
+}
+.name{
+     color:#CC0000;
+}
+/**/
+.lista2{
+     font-size: 20px;
+     line-height: 25px;
+}
+.Subtitulo_rango{
+     margin: 15px 0 15px 30px;
+     color: #DB0303;
+     font-size: 22px;
+}
+.Jerarquia{
+     margin:5px 0 0 40px;
+     font-size:19.5px;
+     text-align:left;
+     color:#000000;
+     transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
+}
+.Jerarquia:hover{
+     transform: scale(1.025);
+     color:#FF0000;
+}    
+.Jerarquia:active{
      transform: scale(.9);
 }
-.Parrafo_2{
-     font-size: 22px;
-     text-align: center;
-     margin-right: 15px;
-     margin-left: 15px;
-     margin-bottom: 50px;
-}
-
-/*---------Ajuste de imagenes----------*/
-.Imagenes{
-     display:inline-block!important;
-}
-.Imagen1{
-     display:block;
-     margin-left:auto;
-     margin-right: auto;
-     margin-bottom:15px;
-     height:auto;
-     width:auto;
-}
-.Imagen2{
+/**/
+.container_multimedia{
      float:right;
+     width:45%;
+     height:auto;
      display:inline-block;
      margin-left: auto;
-     margin-right:10px;
-     width: 640px;
-     padding-right:10px;
-     height: 380px;
-     margin-bottom:35px;
+     margin-right: auto;
+     margin-top: -80px;
 }
-.Imagen3{
-     float:left;
-     display:inline-block;
-     margin-left:10px;
-     margin-right:auto;
-     width: 650px;
-     padding-right:10px;
-     height: 380px;
-     margin-bottom:35px;
-}
-/*----------Img de los coches-------*/
-.Imagenes_2{
-     display:inline-block!important;
-}
-.Imagen4{
-     float:left;
+.Discord{
+     height:450px;
+     width: 520px;
      display:block;
-     margin-right:auto;
-     margin-left:10px;
-     width:630px;
-     height:380px;
-     margin-bottom:15px;
+     margin-right: auto;
+     margin-left: auto;
+     border-radius:20px;
+     
 }
-.Imagen5{
-     float:right;
+.video{
      display:block;
-     margin-right:10px;
-     margin-left:auto;
-     width:650px;
-     height:380px;
-     margin-bottom:15px;
+     margin-left: auto;
+     margin-right: auto;  
+
 }
-.Imagen6{
-     float:left;
-     display:block;
-     margin-right:auto;
-     margin-left:10px;
-     width:630px;
-     height:380px;
-     margin-bottom:15px;
+.Parrafo4{
+     text-align: center;
+     font-size: 21px;
 }
-.Imagen7{
-     float:right;
-     display:block;
-     margin-right:10px;
-     margin-left:auto;
-     width:650px;
-     height:380px;
-     margin-bottom:15px;
+.Subtitulo3{
+     font-size:25px;
+     color: red;
+     margin-top: 100px;
+     text-align: center;
 }
-.Imagen8{
-     display: block;
-     margin-bottom:10px;
-     margin-right:auto;
-     margin-left:auto;
-     height: auto;
-     width: auto;
+/**/
+.aclaraciones{
+     margin: 25px 50px 25px 30px;
+}
+.paclaraciones{
+     font-size: 22px;
+}
+.aclaracion{
+     font-size: 18px;
 }
 /**/
 .Youtube_ico{
@@ -200,7 +211,7 @@ footer{
      position:relative;
      font-size:18px;
      clear:both;
-     margin-top: 5px;
+     margin-top:35px;
      border-radius: 10px;
      border:3px solid #F08080;
      line-height:24px;
@@ -218,9 +229,13 @@ footer{
 .correo{
      color:red;
 }
+/*
+.correo:hover{
+     transform: scale(1.05);
+     font-size: 19px;
+}*/
 .alex{
      color:red;
-     font-family:;
      font-size:22px;
 }
 /*-----Boton de subir-------*/
@@ -239,22 +254,19 @@ footer{
      font-size:26px;
      margin:0;
      text-align:center;
-     bottom:40px;
+     bottom:30px;
      right:30px;
      color:#D41616;
      transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
 }
 .back-to-top:hover{
      color:blue;
-     border: 2px solid blue;
 }
-
 .fa-angle-up{
      animation-duration:2.5s;
      animation-fill-mode:both;
      animation-iteration-count:infinite;     
 }
-
 @keyframes fa-angle-up{
      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
           40% {transform: translateY(-30px);}
@@ -263,9 +275,13 @@ footer{
 .fa-angle-up{
      animation-name:fa-angle-up;
 }
+/*EN REPARACIONES*/
 
-@media only screen and (max-width: 768px){
-     /**/
+ @media only screen and (max-width: 768px){
+     header{
+          float: none;
+          width: 100%;
+     }
      header nav,
      header nav li,
      footer{
@@ -318,77 +334,63 @@ footer{
      .lista_deco:hover {
           color:/*#E9967A*/hsl(203, 80%, 62%);
      }
-     .container_inicio{
-          float: none;
+     /*===========================*/
+     .Parrafo1{
+          font-size: 22px;
+          text-align: center;
+     }
+     /*=====================*/
+     .contenedor_historia{
+          float:none;
           width:100%;
+          height:auto;
      }
-     .Title{
-          margin-top: 80%;
+     .subtitlo2{
+          font-size: 26px;
+          text-align: center;
+          color: #e22;
      }
-     /*---------Ajuste de imagenes----------*/
-     .Imagen1{
+     .Parrafo2{
+          text-align: justify;
+          font-size: 18px;
+          line-height: 22px;
+     }
+     /*=======JERARQUIA======*/
+     .lista2{
           float: none;
-          padding-bottom:15px;
+          font-size: 20px;
+          line-height: 25px;
      }
-    .Imagen2{
-          float: none;
-          display:block;
-          margin-left: auto;
-          margin-right:auto;
-          width: 840px;
-          padding-right:15px;
-          padding-left:15px;
-          height: 380px;
-          margin-bottom:35px;
+     .Subtitulo_rango{
+          color: #DB0303;
+          ont-size: 29px;
      }
-     .Imagen3{
-          float:none;
-          display:block;
-          margin-left:auto;
-          margin-right: auto;
-          padding-right:15px;
-          padding-left:15px;
-          width:840px;
+     .Jerarquia{
+          font-size:19.5px;
+          text-align:left;
+          color:#000000;
+          transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
      }
-     /*-------- Coches ------*/
-     .Imagen4{
-          float:none;
-          display:block;
-          margin-right:auto;
-          margin-left:auto;
-          padding-right:15px;
-          padding-left:15px;
-          width:740px;
-          padding-bottom: 15px;
+     .Jerarquia:hover{
+          transform: scale(1.025);
+          color:#FF0000;
+     }    
+     .Jerarquia:active{
+          transform: scale(.9);
      }
-     .Imagen5{
-          float:none;
-          display:block;
-          margin-right:auto;
-          margin-left:auto;
-          padding-right:15px;
-          padding-left:15px;
-          width:740px;
-          padding-bottom: 15px;
+     /*==========================*/
+     .container_multimedia{
+          width:100%;
+          height:auto;
+          display:;
      }
-     .Imagen6{
-          float:none;
-          display:block;
-          margin-right:auto;
-          margin-left:auto;
-          padding-right:15px;
-          padding-left:15px;
-          width:740px;
-          padding-bottom: 15px;
-     }
-     .Imagen7{
-          float:none;
-          display:block;
-          margin-right:auto;
-          margin-left:auto;
-          padding-right:15px;
-          padding-left:15px;
-          width:740px;
-          padding-bottom: 15px;
-     }
-}
+     .video{
+         width:420px;
+         margin-bottom: 15px;
+         display: ;
+    }
+    .Discord{
+          width:320px;
+          display: ;
+    }
+ }
