@@ -59,7 +59,7 @@ main{
      margin-top: 5em;
      margin-right:15px;
      margin-left: 15px;
-     position:;
+     
 }
 /*=======================================*/
 .contenedor_historia{
@@ -275,3 +275,174 @@ footer{
 .fa-angle-up{
      animation-name:fa-angle-up;
 }
+/*EN REPARACIONES*/
+ @media only screen and (max-width: 1129px){
+     .video{
+         width:480px;
+    }
+    .Discord{
+     width:420px;
+    }
+}
+@media only screen and (max-width: 1138px){
+     .video{
+         width:480px;
+    }
+    .Discord{
+     width:410px;
+    }
+}
+@media only screen and (max-width: 1119px){
+     .video{
+         width:460px;
+    }
+    .Discord{
+     width:450px;
+    }
+}
+@media only screen and (max-width: 1096px){
+     .video{
+         width:450px;
+    }
+    .Discord{
+     width:450px;
+    }
+}
+@media only screen and (max-width: 959px){
+     .video{
+         width:450px;
+    }
+    .Discord{
+     width:310px;
+    }
+}
+ @media only screen and (max-width: 768px){
+     header{
+          float: none;
+          width: 100%;
+     }
+     header nav,
+     header nav li,
+     footer{
+          float:none;
+          width:100%;
+     }
+     nav{
+          width:100%;
+     }
+     .nav_ul{
+          display:none;
+     }
+     .nav_ul_responsive{
+          display:block;
+          position: absolute;
+          width: 100%;
+          background: salmon;
+     }
+     .nav_li-container{
+          width:100%;
+     }
+     .nav_li-container{
+          box-sizing: border-box;
+          margin-right: 3px;
+          width: 30px;
+     }
+     .nav_responsive-button{
+          position: absolute;
+          width: 100%;
+          font-size: 25px;
+          background-color: grey;
+     }
+     .nav_responsive-button{
+          padding: 6px 20px;
+          text-align: right;
+          width: 100%;
+     }
+     .lista{
+          display:inline-block;
+          text-align: center;
+          font-size:16px;  
+          margin-left:0;
+     }
+     .lista_deco{
+          display: flex;
+          color:#FBF7F7;
+          transition:color 0.30s ease-in-out, transform 0.25s ease-in-out;
+          text-decoration:none;
+     }
+     .lista_deco:hover {
+          color:/*#E9967A*/hsl(203, 80%, 62%);
+     }
+     .container_historia{
+          
+          width: 100%;
+     }
+     .container_multimedia{
+          width: 100%;
+     }
+
+
+     /*
+     .contenedor_historia{
+          float:none;
+          width:100%;
+          height:auto;
+          display:block;
+          text-align: center;
+          justify-content: center;
+     }
+     .subtitlo2{
+          font-size: 26px;
+          text-align: center;
+          color: #e22;
+     }
+     .Parrafo2{
+          text-align: justify;
+          font-size: 18px;
+          line-height: 22px;
+          margin-left: 2px;
+     }
+     /*=======JERARQUIA======*/
+    /*.lista2{
+          float: none;
+          font-size: 20px;
+          line-height: 25px;
+     }
+     .Subtitulo_rango{
+          color: #DB0303;
+          ont-size: 22px;
+     }
+     .Jerarquia{
+          font-size:19.5px;
+          text-align:left;
+          color:#000000;
+          transition: color 0.30s ease-in-out, transform 0.20s ease-in-out;
+     }
+     .Jerarquia:hover{
+          transform: scale(1.025);
+          color:#FF0000;
+     }    
+     .Jerarquia:active{
+          transform: scale(.9);
+     }*/
+
+     .container_multimedia{
+         
+          width:100%;
+          height:auto;
+          display:none;
+         
+     }
+     .contenedor_discord{
+          display: none;
+     }
+     .contenedor_video{
+          display: none;
+     }
+     .video{
+         width:480px;
+    }
+    .Discord{
+     width:420px;
+    }
+ }
